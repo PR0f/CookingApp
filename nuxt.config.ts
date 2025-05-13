@@ -8,11 +8,14 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     '@nuxt/ui'
   ],
+  css: ['~/assets/css/main.css'],
   i18n: {
     locales: [
       { code: 'en', language: 'en-US' },
       { code: 'de', language: 'de-DE' }
     ],
     defaultLocale: 'en',
-  }
+  },
+  
+  
 })
