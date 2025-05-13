@@ -4,6 +4,14 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@pinia/nuxt',
-    'pinia-plugin-persistedstate/nuxt'
+    'pinia-plugin-persistedstate/nuxt',
+    '@nuxtjs/i18n'
   ],
+  i18n: {
+    locales: [
+      { code: 'en', language: 'en-US' },
+      { code: 'de', language: 'de-DE' }
+    ],
+    defaultLocale: 'en',
+  }
 })

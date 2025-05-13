@@ -10,7 +10,9 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxtjs/i18n": "^9.5.4",
     "nuxt": "^3.17.3",
+    "nuxt-i18n": "^6.28.1",
     "pinia": "^3.0.2",
     "pinia-plugin-persistedstate": "^4.3.0",
     "vue": "^3.5.13",
