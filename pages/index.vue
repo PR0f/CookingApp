@@ -14,17 +14,31 @@
               <div style="position: relative;">
                 <div style="position: absolute; right: 10px; top: -20px; ">
                   <div class="border-10 border-primary rounded-full bg-primary w-11 h-11">
-                    <UIcon name="ic-baseline-favorite-border" class="size-6 bg-white" />
+                    <UIcon name="ic-baseline-favorite-border" class="size-6 bg-slate-200" />
                   </div>
                 </div>
               </div>
               <div class="bg-slate-300 pt-2 border-solid rounded-b-lg p-3 flex-1">
 
-                <h1 class="text-slate-700 pb-3">asdsadsa</h1>
+                <h1 class="text-slate-800 pb-2 font-bold">Pasta tuti fruti</h1>
 
+                <div class="flex place-content-between pb-2">
+                  <div class="flex" >
+                    <UIcon name="ic-outline-access-time" class="size-5 bg-slate-600" />
+                    <p class="w-full text-center text-sm text-slate-600">45 min</p>
+                  </div>
+                  <div class="flex">
+                    <UIcon name="ic-baseline-people-outline" class="size-5 bg-slate-600" />
+                    <p class="w-full text-center text-sm text-slate-600">2 people</p>
+                  </div>
+                  <div class="flex">
+                    <UIcon name="ic-outline-bar-chart" class="size-5 bg-slate-600" />
+                    <p class="w-full text-center text-sm text-slate-600">Beginner</p>
+                  </div>
+                </div>
 
                 <UButton color="primary" class="w-full text-center">
-                  <p class="w-full text-center">Button</p>
+                  <p class="w-full text-center text-slate-200">Recepie</p>
                 </UButton>
 
               </div>
