@@ -1,16 +1,21 @@
 <template>
   <div class="h-full" style="display: flex; ">
 
-    <div class="bg-slate-700" >
+    <div class="bg-slate-700">
       <UNavigationMenu orientation="vertical" :items="items" class="data-[orientation=vertical]:w-48 " />
     </div>
+
     <slot />
 
+
+    <mFooter />
   </div>
-  <mFooter />
+
 </template>
 
 <script lang="ts" setup>
+import type { NavigationMenuItem } from '@nuxt/ui';
+
 
 
 const items = ref<NavigationMenuItem[][]>([
